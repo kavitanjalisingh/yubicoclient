@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Yubico'
+project = u'Yubico Python API'
 copyright = u'2011, Openlabs Technologies & Consulting (P) Ltd.'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -171,7 +171,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Yubicodoc'
+htmlhelp_basename = 'YubicoPythonAPIdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -190,7 +190,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Yubico.tex', u'Yubico Documentation',
+  ('index', 'YubicoPythonAPI.tex', u'Yubico Python API Documentation',
    u'Openlabs Technologies \\& Consulting (P) Ltd.', 'manual'),
 ]
 
@@ -220,7 +220,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'yubico', u'Yubico Documentation',
+    ('index', 'yubicopythonapi', u'Yubico Python API Documentation',
      [u'Openlabs Technologies & Consulting (P) Ltd.'], 1)
 ]
 
@@ -234,7 +234,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Yubico', u'Yubico Documentation', u'Openlabs Technologies & Consulting (P) Ltd.',
+  ('index', 'YubicoPythonAPI', u'Yubico Python API Documentation', u'Openlabs Technologies & Consulting (P) Ltd.',
    'Yubico', 'One line description of project.', 'Miscellaneous'),
 ]
 
